@@ -1,0 +1,93 @@
+<!-- Navbar Starts -->
+<nav style="font-family: 'Abel', sans-serif;" class="navbar navbar-expand-lg fixed-top" id="nav-main">
+  <!-- LOGO -->
+  <a href="{{site.url}}{{site.baseurl}}/" class="navbar-brand">
+    <img class="logo" src="{{site.url}}{{site.baseurl}}/images/logo.svg" style="width:2.5rem; position: relative;" alt="HTSmile Logo" />
+  </a>
+  <!-- LOGO -->
+
+  <!-- BURGER TOGGLE -->
+  <img src="{{site.url}}{{site.baseurl}}/images/menu.svg" style="width:2.5rem; position: relative;" alt="Menu;" class="navbar-toggler"
+    data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle Navigation" />
+  <!-- BURGER TOGGLE -->
+
+  <!-- NAVBAR CONTENT -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" id="link" href="{% if page.layout == 'homepage' %}#welcome{% else %}{{site.url}}{{site.baseurl}}/#welcome{% endif %}">Home</a>
+      </li>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="link" href="{% if page.layout == 'homepage' %}#about-section{% else %}{{site.url}}{{site.baseurl}}/#about-section{% endif %}">About</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" id="link" href="{% if page.layout == 'homepage' %}#contact-section{% else %}{{site.url}}{{site.baseurl}}/#contact-section{% endif %}">Contact</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link {% if page.layout == 'blogpage' or page.layout == 'posts' %}active{% endif %}" id="link"
+          href="{{site.url}}{{site.baseurl}}/blog">Blog<a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a id="link" class="nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="projects">
+          <a class="dropdown-item" target="_blank" href="https://www.techetarian.com">Techetarian</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" target="_blank" href="https://harsh98trivedi.github.io/YouTube-Thumbnail-Downloader">YouTube
+            Thumbnail Downloader</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" target="_blank" href="https://github.com/harsh98trivedi/C-Programs">C-Programs</a>
+        </div>
+      </li>
+    </ul>
+
+    <center style="margin: 0.5rem;">
+      <input type="checkbox" id="invert" class="cbx hidden" />
+      <label for="invert" class="lbl"></label>
+    </center>
+
+    <div class="row" id="socialmedia">
+      <!-- Social Media Icons -->
+      <div class="container" id="socialmedia">
+        <div class="grid">
+          <a href="https://www.facebook.com/harsh98trivedi" target="_blank" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/facebook.svg" alt="Facebook"></img>
+          </a>
+          <a style="display: none;" href="https://www.twitter.com/harsh98trivedi" target="_blank" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/twitter.svg" alt="Twitter"></img>
+          </a>
+          <a href="https://www.youtube.com/harsh98trivedi?sub_confirmation=1" target="_blank" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/youtube.svg" alt="YouTube"></img>
+          </a>
+          <a href="https://plus.google.com/+harsh98trivedi" target="_blank" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/googleplus.svg" alt="Google+"></img>
+          </a>
+          <a href="https://www.instagram.com/harsh98trivedi" target="_blank" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/instagram.svg" alt="Instagram"></img>
+          </a>
+          <a href="https://www.reddit.com/u/harshtrivedi" target="_blank" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/reddit.svg" alt="Reddit"></img>
+          </a>
+          <a href="https://www.github.com/harsh98trivedi" target="_blank" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/github.svg" alt="Github"></img>
+          </a>
+          <a href="mailto:harsh98trivedi@gmail.com" id="social-media-icons">
+            <img id="social" src="{{site.url}}{{site.baseurl}}/images/gmail.svg" alt="Email"></img>
+          </a>
+        </div>
+      </div>
+      <!-- Social Media Icons -->
+    </div>
+  </div>
+  </div>
+  <!-- NAVBAR CONTENT -->
+  </div>
+  <!-- Navbar Ends-->
+</nav>
+<span style="display: none;" id="top"></span>

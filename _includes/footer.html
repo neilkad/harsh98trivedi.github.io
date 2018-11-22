@@ -1,0 +1,113 @@
+<center>
+    <!--Footer-->
+    <footer style="font-family: 'Abel', sans-serif;" class="footer custom-footer">
+        <div class="text-center col-lg-12 col-md-12 col-sm-12">
+            Proudly Hosted on <a target="_blank" style="color:white;" href="https://pages.github.com/">GitHub Pages.</a>
+        </div>
+    </footer>
+    <!--/.Footer-->
+</center>
+
+<script src="https://twemoji.maxcdn.com/2/twemoji.min.js"></script>
+<script>
+  
+    $(document).ready(function () {
+      var themeColor = getCookie("colorTheme");
+      var colorCheck = $('#invert');
+      
+      if(themeColor !== "" && themeColor == "dark"){
+        addInverseColorScheme();
+        colorCheck.prop("checked",true);
+      }
+
+      colorCheck.click(function () {
+        if($(this).prop('checked')){
+          setCookie("colorTheme","dark",365);
+          addInverseColorScheme();
+        } else{
+          setCookie("colorTheme","light",1);
+          removeInverseColorScheme();
+        }
+        $(this).prop("checked",this.checked);
+      });
+
+    });
+
+    function addInverseColorScheme() {
+      $('body').addClass('body-inverse');
+      $('.big-headline').addClass('big-headline-inverse');
+      $('.gradient_cover').addClass('gradient_cover-inverse');
+      $('.typed-strings').addClass('typed-strings-inverse');
+      $('.blog-section').addClass('blog-section-inverse');
+      $('.card').addClass('card-inverse');
+      $('.card-title').addClass('card-title-inverse');
+      $('.card-text').addClass('card-text-inverse');
+      $('hr').addClass('hr-inverse');
+      $('.post-title').addClass('post-title-inverse');
+      $('.post-date').addClass('post-date-inverse');
+      $('.post-content').addClass('post-content-inverse');
+      $('.typed-cursor').addClass('typed-cursor-inverse');
+      $('.card-img').addClass('card-img-inverse');
+      $('.bounce').addClass('bounce-inverse');
+    }
+
+    function removeInverseColorScheme() {
+      $('body').removeClass('body-inverse');
+      $('.big-headline').removeClass('big-headline-inverse');
+      $('.gradient_cover').removeClass('gradient_cover-inverse');
+      $('.typed-strings').removeClass('typed-strings-inverse');
+      $('.blog-section').removeClass('blog-section-inverse');
+      $('.card').removeClass('card-inverse');
+      $('.card-title').removeClass('card-title-inverse');
+      $('.card-text').removeClass('card-text-inverse');
+      $('hr').removeClass('hr-inverse');
+      $('.post-title').removeClass('post-title-inverse');
+      $('.post-date').removeClass('post-date-inverse');
+      $('.post-content').removeClass('post-content-inverse');
+      $('.typed-cursor').removeClass('typed-cursor-inverse');
+      $('.card-img').removeClass('card-img-inverse');
+      $('.bounce').removeClass('bounce-inverse');
+    }
+
+
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires="+d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires;
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+  
+</script>
+
+<script>
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://harshtrivedi.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+</script>

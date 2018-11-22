@@ -1,0 +1,33 @@
+markdown: kramdown
+
+exclude:
+  - Gemfile
+
+title: Harsh Trivedi
+
+author: Harsh Trivedi
+
+permalink: 'blog/:title'
+
+plugins:
+  - jekyll-feed
+  - jekyll-admin
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: 'posts'
+    values:
+      image: ""
+      meta: ""
+      author: ""
+      layout: posts
+  -
+    scope:
+      path: ""
+      type: 'pages'
+    values:
+      image: ""
+      meta: ""
+      layout: page

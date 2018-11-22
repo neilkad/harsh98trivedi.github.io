@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  {% include meta.html %}
+  {% include stylesheets.html %}
+</head>
+
+<!-- Body Starts -->
+
+<body style="font-family: 'Abel', sans-serif;">
+  {% include navbar.html %}
+  <center>
+    <!-- Blog-Content Container Starts -->
+    <div style="padding:0;min-height:95.05vh;display:flex; font-family: Poppins, sans-serif;" class="container-fluid">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <p class="post-title">
+          <a href="{{site.ur}}{{site.baseurl}}{{page.url}}">{{page.title}}</a>
+        </p>
+        {% for author in site.data.authors %}
+        <span style="font-size:1.75vmax; display:inline;font-weight:300;" class="post-date">{{page.date
+          |
+          date: '<span style="font-weight:600">%B %d, %Y %A</span>' }} by
+          <a style="font-weight:600" href="{{ author.facebook }}" target="_blank">{{page.author}}</a>
+        </span>
+        {% endfor %}
+        <hr>
+        <div><img class="post-image" src="{{page.image}}" alt="{{page.title}}" /></div>
+        <div class="post-content">
+          {{page.content}}
+        </div>
+        <hr>
+        {% include social-sharing.html %}
+      </div>
+    </div>
+  </center>
+  <!-- Blog-Content Container Ends -->
+
+
+  <!-- Include Scripts Here -->
+  <script src="{{site.url}}/{{site.baseurl}}/js/jquery3.3.1.min.js" type="text/javascript"></script>
+  <script src="{{site.url}}/{{site.baseurl}}/js/bootstrap4.0.0.min.js"></script>
+  <script src="{{site.url}}/{{site.baseurl}}/js/popper1.0.js"></script>
+  <script src="{{site.url}}/{{site.baseurl}}/js/main.js"></script>
+  <!-- Include Scripts Here -->
+
+  {% include footer.html %}
+
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src =
+        'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=1744421145620592&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+</body>
+<!-- Body Ends -->
+
+</html>
