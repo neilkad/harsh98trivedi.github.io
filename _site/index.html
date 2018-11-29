@@ -75,9 +75,58 @@
   <!-- LOGO -->
 
   <!-- BURGER TOGGLE -->
-  <img src="http://localhost:4000/images/menu.svg" style="width:2.5rem; position: relative;" alt="Menu;" class="navbar-toggler"
-    data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-    aria-label="Toggle Navigation" />
+  <div class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+    aria-expanded="false" aria-label="Toggle Navigation">
+    <input id="toggle" type="checkbox" />
+    <label class="hamburger" for="toggle">
+      <div class="top"></div>
+      <div class="meat"></div>
+      <div class="bottom"></div>
+    </label>
+  </div>
+
+  <style>
+    label{
+      margin: 0;
+      padding: 0;
+    }
+    .hamburger{
+      display: contents;
+    }
+    .hamburger div {
+    width: 2rem;
+    margin: 5px 0;
+    height: 7px;
+    border-radius: 10rem;
+    background-color: #ffffff;
+    transition: all 0.25s ease;
+    }
+
+    #toggle {
+    display: none;
+    }
+
+    #toggle:checked + .hamburger .top {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-top: 10px;
+    border-radius: 10rem;
+    }
+    #toggle:checked + .hamburger .meat {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -12px;
+    border-radius: 10rem;
+    }
+    #toggle:checked + .hamburger .bottom {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    border-radius: 10rem;
+    }
+    #toggle:checked + .hamburger + .nav {
+    top: 0;
+    }
+    </style>
   <!-- BURGER TOGGLE -->
 
   <!-- NAVBAR CONTENT -->
@@ -117,7 +166,7 @@
 
     <center style="margin: 0.5rem;">
       <input type="checkbox" id="invert" class="cbx hidden" />
-      <label for="invert" class="lbl"></label>
+      <label for="invert" class="lbl" />
     </center>
 
     <div class="row" id="socialmedia">

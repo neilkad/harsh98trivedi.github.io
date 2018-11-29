@@ -466,7 +466,7 @@ img.emoji {
 .blog-holder {
   min-width: 90vw;
   max-width: 97.5vw;
-  margin-top: 6rem;
+  margin-top: 5rem;
   display: flex;
   position: relative;
   z-index: 1000;
