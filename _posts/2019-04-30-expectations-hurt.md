@@ -7,7 +7,7 @@ author: Harsh Trivedi
 layout: posts
 ---
 
-<center><p style="max-width:60rem;text-align:center;background-color:#673AB7;color:#ffffff;padding:0.3vmax;font-size:1rem;">BEFORE STARTING OFF WITH THE STORY, LET ME TELL YOU THAT I AM A HOMOSAPIEN; THUS I'VE GOT HUMANLY FEELINGS.</p></center>
+<center><p style="max-width:60rem;text-align:center;background-color:#673AB7;color:#ffffff;padding:0.3vmax;font-size:1rem;text-transform:uppercase">Before starting off with the story, let me tell you that I am a Homosapien; thus I've got humanly feelings.</p></center>
 
 Hey there, lovely faces, I am going to be fiercely honest with my opinions in this post so make sure to treat this as a story with a lame plot.
 
