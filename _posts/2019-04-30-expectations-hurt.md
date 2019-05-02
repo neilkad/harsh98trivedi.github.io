@@ -56,6 +56,4 @@ The very next day I ended up thinking and considered the whole scenario as a bad
 
 This story may seem to end up on a heavy note for me but not for the lovely couple who is enjoying their time together, the most favorite thing of mine in that healthy relationship is that they both are loyal to each other.
 
-With that said, I would like to tell all of you to always have expectations. They may hurt you at some point of life, but you're always left with some solution to that. You may end up having grudges, but you learn a lot from them.
-
-With that said, I would like to tell you always to have expectations. They may hurt you at some point of life, but you're still left with unusual solutions to that. You may end up having grudges, but if you channel yourself towards righteousness, you can learn a lot from them.
+With that said, I would like to tell you always to have expectations. They may hurt you at some point of life, but you're still left with unusual solutions to that. You may end up having grudges, but if you channel your emotions in the right way, you can learn a lot from them.
