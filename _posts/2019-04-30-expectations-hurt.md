@@ -1,13 +1,12 @@
 ---
 title: Expectations Hurt
 image: https://i.imgur.com/tmWLCxU.jpg
-meta: Expectations Hurt, but you should not stop expecting as it helps you to troubleshoot
-  with yourself.
+meta: Expectations Hurt, but you should not stop expecting as it helps you to troubleshoot with yourself.
 author: Harsh Trivedi
 layout: posts
 ---
 
-<center><p style="max-width:60rem;text-align:center;background-color:#673AB7;color:#ffffff;padding:0.3vmax;font-size:1rem;text-transform:uppercase">Before starting off with the story, let me tell you that I am a Homosapien; thus I've got humanly feelings.</p></center>
+<center><p style="max-width:60rem;text-align:center;background-color:#673AB7;color:#ffffff;padding:0.3vmax;font-size:1rem;text-transform:uppercase">Before starting off with the story, let me tell you that I am a Homosapien, thus I've got humanly feelings.</p></center>
 
 Hey there, lovely faces, I am going to be fiercely honest with my opinions in this post so make sure to treat this as a story with a lame plot.
 
@@ -24,17 +23,17 @@ You know... the more I got to know about her was then, when I started taking tui
 
 But like all good things come to an end. She left. And I thought it was all over. After a day or so, I forgot all the dramatic incidents that took place and my heated intellect cooled down to its average temperature.
 
-Time flew; the year changed; another summer vacation was on its way. At that point, I was ok... with the fact that I lost a person whom I never found, but... *meh! sht happens*. 
+Time flew, the year changed, another summer vacation was on its way. At that point, I was ok... with the fact that I lost a person whom I never found, but... *meh! sht happens*. 
 
 But destiny had a different story to tell. It brought her back to the neighborhood again. Only this time my *emotional ascent was intensified*. And this started happening to me every year she came until the day when I finally met her mother. 
 
-Her mother had an overwhelming personality. She introduced me to her daughter; it was an innocent and friendly meeting between two kids. 
+Her mother had an overwhelming personality. She introduced me to her daughter, it was an innocent and friendly meeting between two kids. 
 
 In between our conversation, the overwhelming personality noticed something between her daughter and me. Most of our habits matched, so she promised me something which I would've never expected, and that's where the problem arose, *I got my very first ever expectation from someone whom I don't even properly know*.
 
 Though she stayed not more than a month, we connected well which ended with us being "good friends." But I never even dared to ask her any details that "good friends" usually share. Hell! I knew her nickname if I score a point from you. But no! That wasn't her real name, either. She knew... it had to be her because I was dismayed of starting a simple conversation.
 
-She was bold; she asked me about my legal name, the school which I was from, and some of those basic details I never cared about answering myself. So now after chatting her for some time, I finally gathered enough confidence to repeat the same to her, and believe me! this task was much more comfortable than I thought it could be. Now I know which school she was into; what her legal name was; and obviously! I knew her Mother's name. 
+She was bold, she asked me about my legal name, the school which I was from, and some of those basic details I never cared about answering myself. So now after chatting her for some time, I finally gathered enough confidence to repeat the same to her, and believe me! this task was much more comfortable than I thought it could be. Now I know which school she was into, what her legal name was, and obviously, I knew her Mother's name. 
 
 With her, every moment was a precious thing. But like before, the vacation came to an end just after the very next day of her introduction. She was going back to her home. It was cool for me as she was supposed to return the following summer. But this time she didn't.
 
@@ -42,7 +41,7 @@ A couple of years passed but there was no sign of her. But she didn't know that 
 
 I was pretty calm because I knew I'll find her in any of these current social media platforms. But you see! These platforms have their own drawbacks (it becomes really very complicated if you're on to find somebody when you actually don't know their username). I searched for the details she left with me, but all my efforts went in vain. 
 
-Eventually, after 4 long years of searching on the web, I found a Facebook profile. It was one of her cousins. She was elder than both of us. And this hint gave me a completely different perspective to watch how these social media platforms can help someone to find a specific person. Now that when I saw the profile, I started doing hit-and-trial, and after a year, I was able to see her mom's profile on Facebook which at the end of the day helped me to find the one which I was looking for. Within 2 hours I was able to find her's. Yes, she was on facebook.
+Eventually, after 4 long years of searching on the web, I found a Facebook profile. It was one of her cousins. She was elder than both of us. And this hint gave me a completely different perspective to watch how these social media platforms can help someone to find a specific person. Now that when I saw the profile, I started doing hit-and-trial, and after a year, I was able to see her mom's profile on Facebook which at the end of the day helped me to find the one which I was looking for. Within 2 hours I was able to find her. Yes, she was on Facebook.
 
 After finding her on Facebook, it was time for me to confirm if she was on other social media platforms with that same username. This time I was curious. I found her on Instagram. Ok! Did I tell you that I was looking for her existence on these social media platforms and followed her private profile from one of my friend's Instagram ID? I know what it sounds like. But I couldn't afford to reveal my desperation. Within 30 minutes, the following request was accepted, leaving a new opportunity for me to dig deep into it.
 
@@ -56,4 +55,4 @@ The very next day I ended up thinking and considered the whole scenario as a bad
 
 This story may seem to end up on a heavy note for me but not for the lovely couple who is enjoying their time together, the most favorite thing of mine in that healthy relationship is that they both are loyal to each other.
 
-With that said, I would like to tell you always to have expectations. They may hurt you at some point of life, but you're still left with unusual solutions to that. You may end up having grudges, but if you channel your emotions in the right way, you can learn a lot from them.
+With that being said, I would like to tell you always to have expectations. They may hurt you at some point of life, but you're still left with unusual solutions to that. You may end up having grudges, but if you channel your emotions in the right way, you can learn a lot from them.
